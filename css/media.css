@@ -1,0 +1,567 @@
+@media (max-width: 1100px) {
+	.slider__gallery .gallery__items .sl__img {
+		height: auto;
+ 	}
+	.reviews__slide {
+		max-width: 900px;
+		width: 100%;
+	}
+
+	.reviews__avatar {
+		max-width: 260px;
+		max-height: 260px;
+		margin-right: 60px;
+	}
+
+	.reviews__name {
+		padding-bottom: 30px;
+		font-size: 28px;
+	}
+
+	.reviews__text {
+		font-size: 22px;
+	}
+
+	.reviews .slick-prev:before{
+		font-size: 80px;
+	}
+	.reviews .slick-next:before{
+		font-size: 80px;
+	}
+
+	.teachers h2 {
+		margin-left: 30px;
+	}
+
+	.threeStr .teachers__box-top .teachers__item {
+    	margin-left: 100px;
+	}
+}
+
+@media (max-width: 992px) {
+	h2 {
+		font-size: 54px;
+	}
+
+	h3 {
+		font-size: 34px;
+	}
+
+	.header__content {
+		display: none;
+	}
+
+	.header__menu ul {
+		display: none;
+	}
+
+	.toggle-menu {
+		position: fixed;
+    	top: 35px;
+    	right: 5%;
+	}
+
+	.main {
+    	background-size: cover;
+    	padding: 50px;
+	}
+
+	.main .container .main__title {
+		font-size: 36px;
+		width: 100%;
+		padding: 0;
+	}
+
+	.main .container span {
+		font-size: 50px;
+		font-family: MonAmourTwo;
+	}
+
+	.main .container .main__title .lesson {
+    	font-size: 20px;
+    	margin-top: 30px;
+	}
+
+	.advantages__item {
+		padding: 0 35px 50px 35px;
+	}
+
+	.teachers h2 {
+    	text-align: center;
+    	margin-left: 0;
+	}
+
+	.teachers__img {
+		display: none;
+	}
+
+	.teachers__box-bottom {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		margin-top: 25px;
+    	margin-right: 0;
+	}
+
+	.oneStr .teachers__box-bottom .teachers__item:nth-child(2) {
+    	margin-left: 0;
+	}
+
+	.oneStr .teachers__box-bottom {
+		margin-top: 0;
+		margin-right: 0;
+	}
+
+	.oneStr .teachers__box-top .teachers__item,
+	.twoStr .teachers__box-top .teachers__item,
+	.threeStr .teachers__box-top .teachers__item {
+    	margin: 0 auto;
+	}
+
+	.twoStr .teachers__box-bottom .teachers__item:nth-child(2),
+	.threeStr .teachers__box-bottom .teachers__item:nth-child(2),
+	.oneStr .teachers__box-bottom .teachers__item:nth-child(1) {
+    	margin-top: 25px;
+	}
+
+	.slick-dots {
+		bottom: -50px;
+	}
+
+	.reviews .reviews__slide .reviews__item {
+		letter-spacing: 1px;
+		line-height: 25px;
+	}
+
+	.reviews__slide {
+		max-width: 700px;
+		width: 100%;
+		padding-bottom: 0;
+	}
+
+	.reviews__avatar {
+		max-width: 220px;
+		max-height: 220px;
+		margin-right: 45px;
+	}
+
+	.reviews__name {
+		padding-bottom: 20px;
+		font-size: 24px;
+	}
+
+	.reviews__text {
+		font-size: 18px;
+	}
+
+	.reviews .slick-prev:before{
+		font-size: 70px;
+	}
+
+	.reviews .slick-next:before{
+		font-size: 70px;
+	}
+
+	.reviews .slick-prev {
+	    left: -30px;
+	}
+
+	.reviews .slick-next {
+	    right: -30px;
+	}
+
+	.statistics {
+		display: none;
+	}
+
+	#ggmap{ 
+	  height: 600px; 
+	}
+
+	.footer__botton .container .footer__item:nth-child(1) {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	h2 {
+		font-size: 48px;
+	}
+
+	h3 {
+		font-size: 32px;
+	}
+
+	.main {
+    	background-size: cover;
+    	padding: 35px;
+    	letter-spacing: 2px;
+	}
+
+	.main .container .main__title {
+		font-size: 32px;
+		width: 100%;
+		padding: 0;
+	}
+
+	.main .container span {
+		font-size: 40px;
+		font-family: MonAmourTwo;
+	}
+
+	.main .container .main__title .lesson {
+    	font-size: 18px;
+	}
+
+	.advantages__box__top, 
+	.advantages__box__bottom{
+		flex-direction: column;
+		align-items: center;	
+	}
+
+	.advantages__item {
+		padding: 0 25px 40px 25px;
+		width: 100%;
+	}
+
+	.directions__content h3 {
+   		margin: 35px 0;
+	}
+
+	.directions__img {
+		display: none;
+	}
+
+	.oneStr .teachers__box-top .teachers__item,
+	.oneStr .teachers__box-bottom .teachers__item:nth-child(2),
+	.twoStr .teachers__box-top .teachers__item,
+	.twoStr .teachers__box-bottom .teachers__item:nth-child(1),
+	.threeStr .teachers__box-bottom .teachers__item:nth-child(1) {
+		width: 500px;
+		height: 360px;
+	}
+
+	.twoStr .teachers__box-bottom .teachers__item:nth-child(1) .teachers__content {
+		width: 45%;
+		left: 55%;
+	}
+
+	.slider__gallery .gallery__items {
+		margin: 0;
+	}
+
+	.slider__gallery .slick-center .sl__img {
+		transform: scale(1);
+	}
+
+	.slick-dots {
+		bottom: -35px;
+	}
+
+	.gallery {
+		padding-bottom: 50px;
+	}
+
+	.reviews .reviews__slide .reviews__item {
+		letter-spacing: 1px;
+		line-height: 25px;
+	}
+
+	.reviews__slide {
+		max-width: 545px;
+		width: 100%;
+	}
+
+	.reviews__avatar {
+		max-width: 180px;
+		max-height: 180px;
+		margin-right: 40px;
+		margin-top: 40px;
+	}
+
+	.reviews__name {
+		padding-bottom: 20px;
+		font-size: 22px;
+	}
+
+	.reviews__text {
+		font-size: 16px;
+	}
+
+	.reviews .slick-prev:before{
+		font-size: 60px;
+	}
+
+	.reviews .slick-next:before{
+		font-size: 60px;
+	}
+
+	.footer__adress {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	.footer__social a {
+		width: 35px;
+		height: 35px;
+		font-size: 22px;
+	}
+
+	.footer__item:nth-child(3) a {;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	.footer__item .header__btn {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 600px) {
+	h2 {
+		font-size: 44px;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+
+	.main .container .main__title {
+		font-size: 28px;
+		width: 100%;
+		padding: 0;
+	}
+
+	.main .container span {
+		font-size: 36px;
+		font-family: MonAmourTwo;
+	}
+
+	.main .container .main__title .lesson {
+    	font-size: 16px;
+	}	
+
+	.advantages__item {
+		padding: 0 20px 30px 20px;
+	}
+
+	.oneStr .teachers__box-top .teachers__item,
+	.oneStr .teachers__box-bottom .teachers__item:nth-child(2),
+	.twoStr .teachers__box-top .teachers__item,
+	.twoStr .teachers__box-bottom .teachers__item:nth-child(1),
+	.threeStr .teachers__box-bottom .teachers__item:nth-child(1) {
+		width: 400px;
+		height: 300px;
+	}
+
+	.reviews .reviews__slide .reviews__item {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.reviews__slide {
+		max-width: 400px;
+		width: 100%;
+	}
+
+	.reviews__content {
+		text-align: center;
+	}
+
+	.reviews .slick-slide img {
+		display: none;
+	}
+
+	#ggmap{ 
+	  height: 500px; 
+	}
+
+	.footer__botton .container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.footer__adress {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.footer__social a {
+		width: 30px;
+		height: 30px;
+		font-size: 18px;
+	}
+
+	.footer__item:nth-child(3) a {;
+		font-size: 18px;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	.modal-header h4 {
+		line-height: 32px;
+		font-size: 22px;
+	}
+
+	.modal-body input {
+		padding: 10px;
+	}
+
+	.modal-body input::placeholder {
+		font-size: 14px;
+	}
+
+	.modal-footer .header__btn {
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+
+	.cross {
+		font-size: 24px;
+	}
+
+}
+
+@media (max-width: 480px) {
+	h2 {
+		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 28px;
+	}
+
+	.header__top {
+    	padding: 0;
+	}
+	
+	.main .container .main__title {
+		font-size: 24px;
+	}
+
+	.main .container span {
+		font-size: 32px;
+	}
+
+	.main .container .main__title .lesson {
+    	font-size: 14px;
+    	margin-top: 15px;
+	}
+
+	.advantages__item {
+		padding: 0 15px 20px 15px;
+	}
+
+	.directions {
+		padding-bottom: 30px;
+	}
+
+	.directions__list__item {
+		display: none;
+	}
+
+	.directions__content h3 {
+	    margin: 25px 0;
+	}
+
+	.directions__box:nth-child(3) {
+	    clip-path: polygon(0 36%, 175% 0, 100% 80%, 0 70%);
+	    padding: 85px 0;
+	    margin: -45px 0;
+	}
+
+	.oneStr .teachers__box-top .teachers__item,
+	.oneStr .teachers__box-bottom .teachers__item:nth-child(2),
+	.twoStr .teachers__box-top .teachers__item,
+	.twoStr .teachers__box-bottom .teachers__item:nth-child(1),
+	.threeStr .teachers__box-bottom .teachers__item:nth-child(1) {
+		width: 280px;
+	}
+
+	.oneStr .teachers__box-bottom .teachers__item:nth-child(1),
+	.twoStr .teachers__box-bottom .teachers__item:nth-child(2),
+	.threeStr .teachers__box-top .teachers__item,
+	.threeStr .teachers__box-bottom .teachers__item:nth-child(2) {
+	    width: 280px;
+	    height: 300px;
+	}
+
+	.oneStr .teachers__box-bottom .teachers__item:nth-child(1) .teachers__content {
+	    top: 60%;
+	}
+
+	.twoStr .teachers__box-bottom .teachers__item:nth-child(1) .teachers__content {
+		position: absolute;
+		left: 0;
+		top: 68%;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.teachers__name {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.teachers__description {
+		font-size: 14px;
+	}
+
+	.gallery {
+		padding-bottom: 20px;
+	}
+
+	.reviews__slide {
+		max-width: 280px;
+		width: 100%;
+	}
+
+	.reviews__name {
+		font-size: 20px;
+	}
+
+	.reviews__text {
+		font-size: 13px;
+	}
+
+	.reviews .slick-prev:before{
+		font-size: 50px;
+	}
+
+	.reviews .slick-next:before{
+		font-size: 50px;
+	}
+
+	.reviews .slick-prev {
+	    left: -20px;
+	}
+
+	.reviews .slick-next {
+	    right: -20px;
+	}
+
+	.footer__adress {
+		font-size: 16px;
+	}
+
+	.footer__item:nth-child(3) a {
+		font-size: 16px;
+	}
+
+	.footer__item .header__btn {
+		font-size: 12px;
+	}
+
+	.modal-content {
+    	padding: 25px 30px;
+	}
+}
+
+
+
+
