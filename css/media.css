@@ -112,6 +112,10 @@
 		margin-top: 0;
 		margin-right: 0;
 	}
+	
+	.threeStr .teachers__box-bottom .teachers__item:nth-child(1) {
+		margin-right: 0;
+	}
 
 	.oneStr .teachers__box-top .teachers__item,
 	.twoStr .teachers__box-top .teachers__item,
